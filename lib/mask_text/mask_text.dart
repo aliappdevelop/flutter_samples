@@ -14,15 +14,6 @@ class MaskText extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //AssetImage('assets/images/tech.jpg'),
-            Text(
-              'HELLO',
-              style: TextStyle(
-                fontSize: 100,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
-            ),
             MaskedImage(
               image: AssetImage('assets/images/nature_1.jpg'),
               child: Text(

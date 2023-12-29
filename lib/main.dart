@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
-      home: const MaskText(),
+      home: const ZoomView(),
     );
   }
 }
