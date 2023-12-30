@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/animated_container/multiple_type.dart';
-import 'package:flutter_samples/animated_container/zoom_view.dart';
+import 'package:flutter_samples/animations/implicit_animation/view/implicit_animation_view.dart';
+import 'package:flutter_samples/animations/multiple_type.dart';
+import 'package:flutter_samples/animations/zoom_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MultipleType(),
+      home: const ImplicitAnimationView(),
     );
   }
 }
