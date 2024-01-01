@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_samples/animations/implicit_animation/view/implicit_animation_view.dart';
+import 'package:flutter_samples/animations/lottie_animation.dart';
 import 'package:flutter_samples/animations/multiple_type.dart';
 import 'package:flutter_samples/animations/zoom_view.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const ImplicitAnimationView(),
+      home: const LottieAnimation(),
     );
   }
 }
